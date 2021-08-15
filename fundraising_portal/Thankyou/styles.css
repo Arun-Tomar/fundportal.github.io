@@ -1,0 +1,34 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(3,8,29,0.10),rgba(3,8,29, 0.10)),url(happy.jpeg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.text-book{
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  text-align: left;
+
+}
+.text-book h1{
+  font-size: 62px;
+}
+
+.text-book p{
+  margin: 10px 0px 40px;
+  font-size: 14px;
+  color: #fff;
+}

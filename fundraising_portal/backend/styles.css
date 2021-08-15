@@ -1,0 +1,98 @@
+:root {
+  --clr-primary: #eee;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+.navbar {
+  /* background: var(--clr-primary) !important; */
+}
+
+.bg-content {
+  color: var(--clr-primary) !important;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn-register {
+  width: auto;
+  padding: 0.3rem 0.5rem !important;
+}
+
+.extreme-right {
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.search-text {
+  width: max-content;
+}
+
+#background-image{
+  background-image: url("images/bg.jpg");
+  display: block;
+  max-width: 100%;
+
+}
+
+#image{
+float: left;
+width: 50;
+}
+
+.bg-overlay {
+  /*background-image: url("images/bg.jpg");*/
+  background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30, 0.7));
+  padding-top: 10%;
+  height: 100vh;
+}
+
+.donor-info {
+  height: 100vh;
+}
+
+.activity {
+  height: 100vh;
+  /* color: #eee; */
+  background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9, 30, 0.7));
+}
+
+.unit {
+  border-bottom: 1px solid #d8d8d8;
+  padding: 20px 0 20px 20px;
+  min-height: 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.unit .field {
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.unit .field a {
+  font-weight: bold;
+  color: #333333;
+}
+
+.unit .field.btn-group-xs {
+  padding: 20px 0 0;
+}
+
+.unit .field {
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.f-l {
+  float: left;
+}
+
+
+
+
+
